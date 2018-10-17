@@ -1,0 +1,139 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.header{
+  margin:5px 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.header .logs-logo{
+  margin-top: 3px;
+  width: 180rpx;
+  height: 50rpx;
+}
+.header input{
+  height: 50rpx;
+  border-radius: 5px;
+  background: #eee;
+  color: #666;
+  padding: 4px 0 4px 10px;
+  font-size: 14px;
+}
+.header .logs-search{
+  margin-top: 3px;
+  height: 50rpx;
+  width: 50rpx;
+}
+.logs-icon swiper-item{
+  display: flex;
+  padding: 60rpx 0;
+}
+.logs-icon swiper-item navigator{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: #666;
+  width: 20%;
+}
+.logs-icon swiper-item:first-child navigator:nth-child(3){
+  font-size: 13px;
+}
+.logs-icon swiper-item:first-child navigator:nth-child(3) image{
+  margin-bottom: 16rpx;
+}
+.logs-icon image{
+  width: 75rpx;
+  height: 75rpx;
+  margin-bottom: 10rpx;
+  padding-top: 20rpx;
+}
+.logs-icon{
+  border-bottom: 1px solid #efefef;
+}
+
+
+.traveling{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+
+.traveling image{
+  width: 33%;
+  height: 200rpx;
+  margin-bottom: 4rpx;
+}
+.traveling image:first-child{
+  width: 64.5%;
+  height: 350rpx;
+}
+.traveling image:nth-child(2){
+  width: 34.5%;
+  height: 350rpx;
+}
+.traveling view:nth-child(6),.traveling view:nth-child(7){
+  width: 100%;
+  display: block;
+  padding: 4rpx;
+}
+.traveling view:nth-child(7){
+  
+  padding-right: 25rpx;
+}
+.traveling view:nth-child(6) image{
+  float: right;
+  width: 110rpx;
+  height: 26rpx;
+}
+.traveling view:nth-child(7) image{
+  float: left;
+  width: 70rpx;
+  height:70rpx;
+  border-radius: 50%;
+  margin-left: 30rpx;
+}
+.traveling view:nth-child(7) view:nth-child(2){
+  float: left;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: 'youyuan';
+  margin-left: 30rpx;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+.traveling view:nth-child(7) view:nth-child(2) text:last-child{
+  font-weight: 400;
+  font-size: 10px;
+  color: #999;
+}
+.traveling view:nth-child(7) view:nth-child(3){
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #444;
+  font-size: 10px;
+  text-align: right;
+}
+.traveling view:nth-child(8){
+  width: 100%;
+  padding:5rpx 22rpx;
+  font-size: 11px;
+  color: #666;
+  height: 60rpx;
+  overflow: hidden;
+}

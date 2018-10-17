@@ -1,0 +1,125 @@
+<!--logs.wxml-->
+<!-- <view class="header">
+   <image src='/res/all/v8_img_general_logo.png' class='logs-logo'></image>
+   <input type='text'></input>
+   <image src='/res/all/v8_ic_general_search.png' class='logs-search'></image>
+</view>
+<view class='logs-icon'>
+   <swiper autoplay interval="3500" indicator-dots="{{false}}">
+     <swiper-item>
+       <navigator>
+         <image src='/res/logs/logs-icon1.png' ></image>
+         <image src='/res/logs/logs-icon2.png' ></image>
+         <image src='/res/logs/logs-icon3.png' ></image>
+         <image src='/res/logs/logs-icon4.png' ></image>
+         <image src='/res/logs/logs-icon5.png' ></image>
+       </navigator>
+       <navigator>
+         <text>攻略</text>
+         <text>攻略</text>
+         <text>攻略</text>
+         <text>攻略</text>
+         <text>攻略</text>
+       </navigator>
+     </swiper-item>
+     <swiper-item>
+       <navigator>
+         <image src='/res/logs/logs-icon6.png' ></image>
+         <image src='/res/logs/logs-icon7.png' ></image>
+         <image src='/res/logs/logs-icon8.png' ></image>
+       </navigator>
+     </swiper-item>
+   </swiper>
+</view> -->
+
+
+<!--logs.wxml-->
+<view class="header">
+   <image src='/res/all/v8_img_general_logo.png' class='logs-logo'></image>
+   <input type='text' placeholder='十一长假哪里出游'></input>
+   <image src='/res/all/v8_ic_general_search.png' class='logs-search'></image>
+</view>
+<view class='logs-icon'>
+   <swiper indicator-dots="{{true}}">
+     <swiper-item>
+       <navigator>
+         <image src='/res/logs/logs-icon1.png' ></image>
+         <text>攻略</text>
+       </navigator>
+       <navigator>
+         <image src='/res/logs/logs-icon2.png' ></image>
+         <text>酒店</text>
+       </navigator>
+       <navigator>
+         <image src='/res/logs/logs-icon3.png' ></image>
+         <text>机票火车票</text>
+       </navigator>
+       <navigator>
+         <image src='/res/logs/logs-icon4.png' ></image>
+         <text>旅行商城</text>
+       </navigator>
+       <navigator>
+         <image src='/res/logs/logs-icon5.png' ></image>
+         <text>游记</text>
+       </navigator>
+     </swiper-item>
+     <swiper-item>
+       <navigator>
+         <image src='/res/logs/logs-icon6.png'></image>
+         <text>旅行视频</text>
+        </navigator>
+        <navigator>
+         <image src='/res/logs/logs-icon7.png'></image>
+         <text>问答</text>
+        </navigator>
+        <navigator>
+         <image src='/res/logs/logs-icon8.png'></image>
+         <text>嗡嗡</text>
+       </navigator>
+     </swiper-item>
+   </swiper>
+</view>
+
+
+
+
+
+<van-tabs active="{{0}}" bind:change="onChange" color='#FFDF29' line-width='40'>
+  <van-tab title="{{item.title}}" wx:for="{{rows}}" wx:key="id" >
+    <navigator class='traveling'>
+      <image src='{{item.img_url1}}'></image>
+      <image src='{{item.img_url2}}'></image>
+      <image src='{{item.img_url3}}'></image>
+      <image src='{{item.img_url4}}'></image>
+      <image src='{{item.img_url5}}'></image>
+      <view>
+        <image src='/res/all/logs-little-logo1.png'></image>
+      </view>
+      <view>
+        <image src='/res/user-pics/logs-user1.jpg'></image>
+        <view>
+          <text>{{item.uname}}</text>
+          <text>{{item.time}}</text>
+        </view>  
+        <view>
+          <text>{{item.place1}}</text>
+          <text>{{item.place2}}</text>
+        </view>
+      </view>
+      <view>
+        <text>{{item.detail}}</text>
+      </view>
+    </navigator>
+  </van-tab>
+  <!-- <van-tab title="推荐">
+  </van-tab>
+  <van-tab title="十一去哪">
+  </van-tab>
+  <van-tab title="国内">
+  </van-tab>
+  <van-tab title="国外">内容 2</van-tab>
+  <van-tab title="带娃旅行">内容 3</van-tab>
+  <van-tab title="海岛游">内容 4</van-tab>
+  <van-tab title="情侣出行">内容 4</van-tab>
+  <van-tab title="自驾游">内容 4</van-tab> -->
+</van-tabs>

@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFDF29",
+    "navigationBarTitleText": "马蜂窝旅游",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#333",
+    "borderStyle": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "iconPath": "res/index-tab/v8_ic_tab_homepage_normal.png",
+        "selectedIconPath": "res/index-tab/v8_ic_tab_homepage_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "目的地",
+        "iconPath": "res/index-tab/v8_ic_tab_destination_normal.png",
+        "selectedIconPath": "res/index-tab/v8_ic_tab_destination_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "酒店",
+        "iconPath": "res/index-tab/v8_ic_tab_hotel_normal.png",
+        "selectedIconPath": "res/index-tab/v8_ic_tab_hotel_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "旅行商城",
+        "iconPath": "res/index-tab/v8_ic_tab_default_mall.png",
+        "selectedIconPath": "res/index-tab/v8_ic_tab_focused_mall.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "res/index-tab/v8_ic_tab_mine_normal.png",
+        "selectedIconPath": "res/index-tab/v8_ic_tab_mine_selected.png"
+      }
+    ]
+  }
+}
